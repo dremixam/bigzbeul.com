@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <title>Le Bigzbeul</title>
+    <meta charset='utf-8'>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            height: 100%;
+            background: url(background.png);
+            background-size: cover;
+            background-color: black;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 95vh;
+            flex-direction: column;
+        }
+
+	.footer {
+            margin-top: 3rem;
+        }
+
+        .logo {
+            max-width: 75vw;
+            max-height: 50vh;
+            filter: drop-shadow(0 0 .75rem black);
+            animation: 1s ease-in-out 1s infinite alternate size;
+        }
+
+        .discord-logo {
+            max-height: 4em;
+            max-width: 75vw;
+        }
+
+        h2 {
+            margin-bottom: 3em;
+        }
+
+        @keyframes size {
+            from {
+                transform: scale(.95);
+            }
+
+            to {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <img class="logo" src="logo.png" alt="Le Bigzbeul">
+        </div>
+        <div>
+            <!--h2>Vous êtes streamer ou souhaitez aider à bêta test ?<br>Rejoignez le discord pour participer au Bigzbeul</h2-->
+            <p>
+                <a href="https://discord.gg/6fDFp9JCbX">
+                    <img class="discord-logo" src="discord-logo-white.png" alt="Rejoindre le discord">
+                </a>
+            </p>
+            <p class="footer">
+                Créé par <a href="https://dremixam.com">DrEmixam</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

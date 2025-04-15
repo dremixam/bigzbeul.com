@@ -1,0 +1,1070 @@
+{
+  "version": "1.0.0",
+  "rss": "https://bigzbeul.com/feed.rss",
+  "servers": [
+    {
+      "id": "Bigzbeul-1.19.2",
+      "name": "Bigzbeul",
+      "description": "Bigzbeul Running Minecraft 1.19.2",
+      "icon": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/Bigzbeul-1.19.2.png",
+      "version": "1.0.0",
+      "address": "ef1eca3c4e5085f207df4526.bigzbeul.com:27565",
+      "minecraftVersion": "1.19.2",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.2.21",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7377,
+            "MD5": "65deb2760307cc2569a98a6e458e0464",
+            "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.2.21/lowcodelanguage-1.19.2-43.2.21.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.2.21",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15504,
+                "MD5": "1a786aa981c7255ada356b384f5dd527",
+                "url": "https://bigzbeul.com/repo/versions/1.19.2-forge-43.2.21/1.19.2-forge-43.2.21.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.2.21",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 112532,
+                "MD5": "b2424dd82a260ce9894944e62150187c",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.2.21/fmlcore-1.19.2-43.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.2.21",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16351,
+                "MD5": "4ee4d2f02e1096dcfaadaed0a8a15006",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.2.21/javafmllanguage-1.19.2-43.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.2.21",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4985,
+                "MD5": "dcc704c358f263a6528f8b8c06c798e8",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.2.21/mclanguage-1.19.2-43.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.2.21:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2630062,
+                "MD5": "152123c09890be8ee74f620275d26578",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/forge/1.19.2-43.2.21/forge-1.19.2-43.2.21-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.2.21:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5417583,
+                "MD5": "d3f4520ebc94f0db9b8ab90d1b248baf",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/forge/1.19.2-43.2.21/forge-1.19.2-43.2.21-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://bigzbeul.com/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://bigzbeul.com/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://bigzbeul.com/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://bigzbeul.com/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://bigzbeul.com/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://bigzbeul.com/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://bigzbeul.com/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://bigzbeul.com/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://bigzbeul.com/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://bigzbeul.com/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://bigzbeul.com/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://bigzbeul.com/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://bigzbeul.com/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://bigzbeul.com/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://bigzbeul.com/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://bigzbeul.com/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://bigzbeul.com/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://bigzbeul.com/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.2.21",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261378,
+                "MD5": "65f4215699a6e458128306143ebad72b",
+                "url": "https://bigzbeul.com/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.2.21/fmlloader-1.19.2-43.2.21.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.19.2-1.0.18@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102262,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/forgemods/required/soundphysics-forge-1.19.2-1.0.18.jar",
+            "MD5": "17be8471b59c9ffb6a9b60831ea85d9a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.2-2.5.0@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8168175,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/forgemods/required/voicechat-forge-1.19.2-2.5.22.jar",
+            "MD5": "76e08f299684c28a2394067ec8f5bb8f"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/config/sound_physics_remastered/soundphysics.properties",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 32,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "OptiFine_1.19.2_HD_U_I2_MOD.jar",
+          "name": "OptiFine_1.19.2_HD_U_I2_MOD.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6421247,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/mods/OptiFine_1.19.2_HD_U_I2_MOD.jar",
+            "path": "mods/OptiFine_1.19.2_HD_U_I2_MOD.jar"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 298,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 43,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/optionsshaders.txt",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 11005,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/servers.dat",
+            "MD5": "2b51dca7599199ebd89262470eece4cf",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r2.3.zip",
+          "name": "ComplementaryReimagined_r2.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409711,
+            "url": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/files/shaderpacks/ComplementaryReimagined_r2.3.zip",
+            "path": "shaderpacks/ComplementaryReimagined_r2.3.zip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Bigzbeul-Mapping-1.21.1",
+      "name": "Bigzbeul Mapping",
+      "description": "Bigzbeul Mapping server",
+      "icon": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/Bigzbeul-1.19.2.png",
+      "version": "1.0.0",
+      "address": "ef1eca3c4e5085f207df4526.bigzbeul.com:28565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.5",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1369712,
+            "MD5": "eef03e478210de8a4811e0e95eb263f6",
+            "url": "https://bigzbeul.com/fabric/repo/lib/net/fabricmc/fabric-loader/0.16.5/fabric-loader-0.16.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.5",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 3358,
+                "MD5": "d858214a6497bfda012217d5f20abf4b",
+                "url": "https://bigzbeul.com/fabric/repo/versions/1.21.1-fabric-0.16.5/1.21.1-fabric-0.16.5.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494835,
+                "MD5": "a33725dd52de94c33514b6867c8d0b4b",
+                "url": "https://bigzbeul.com/fabric/repo/lib/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://bigzbeul.com/fabric/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.104.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2311459,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/fabric-api-0.104.0+1.21.1.jar",
+            "MD5": "8b8e2cebcd94c66e103a3b68c60bee63"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.12.2+kotlin.2.0.20@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7136729,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/fabric-language-kotlin-1.12.2+kotlin.2.0.20.jar",
+            "MD5": "8de9dc9a12e2605f0d39513bf55b74f9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.0-beta.4+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2659716,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/optionalon/iris-fabric-1.8.0-beta.4+mc1.21.1.jar",
+            "MD5": "030075230b3656cf86d0aabba17d74c1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.13.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 752804,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/lithium-fabric-mc1.21.1-0.13.1.jar",
+            "MD5": "b8466382a400ee71ee8bf54b747015cb"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 975323,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/modmenu-11.0.2.jar",
+            "MD5": "9ad5f7379354ca2eefdf4dd2ec3a1fa7"
+          }
+        },
+        {
+          "id": "io.github.ennuil:ok_zoomer:9.3.0@jar",
+          "name": "Ok Zoomer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 400078,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/OkZoomer-Fabric-9.3.0.jar",
+            "MD5": "d084ba41d170a94622aa398c4d8938bc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.0-beta.3+mc1.21.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 375434,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/sodium-extra-fabric-0.6.0-beta.3+mc1.21.1.jar",
+            "MD5": "ffceaa073f60cee86115064aa1e3fee4"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.0-beta.2+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1266516,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/sodium-fabric-0.6.0-beta.2+mc1.21.1.jar",
+            "MD5": "b08f626a6cee1fc3b3f42760c8046e5f"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.21.1-1.4.6@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 195316,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/sound-physics-remastered-fabric-1.21.1-1.4.6.jar",
+            "MD5": "248b5a8b794066ea61dec98ebcf7d6c4"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.22@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6583718,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.5.22.jar",
+            "MD5": "66db4bedfd20c5f607777de0ac52245a"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 80,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/config/sound_physics_remastered/soundphysics.properties",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 33,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 286,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/optionsshaders.txt",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.2.2.zip",
+          "name": "ComplementaryReimagined_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441683,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.2.2.zip",
+            "MD5": "a0852d3fddaf2c7f957ad6e1b8624513",
+            "path": "shaderpacks/ComplementaryReimagined_r5.2.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.2.2.zip.txt",
+          "name": "ComplementaryReimagined_r5.2.2.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 65,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt",
+            "path": "shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt"
+          }
+        },
+        {
+          "id": "resourcepack.zip",
+          "name": "resourcepack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 52353,
+            "url": "https://bigzbeul.com/resourcepack/resourcepack.zip",
+            "MD5": "1b97bf11b1165b8674ead690fc8d50e7",
+            "path": "resourcepacks/resourcepack.zip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bigzbeul-1.21.1",
+      "name": "BigZbeul (Minecraft 1.21.1)",
+      "description": "BigZbeul Running Minecraft 1.21.1",
+      "icon": "https://bigzbeul.com/servers/Bigzbeul-1.19.2/Bigzbeul-1.19.2.png",
+      "version": "2.0.0",
+      "address": "ef1eca3c4e5085f207df4526.bigzbeul.com:27565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.5",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1369712,
+            "MD5": "eef03e478210de8a4811e0e95eb263f6",
+            "url": "https://bigzbeul.com/fabric/repo/lib/net/fabricmc/fabric-loader/0.16.5/fabric-loader-0.16.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.5",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 3358,
+                "MD5": "d858214a6497bfda012217d5f20abf4b",
+                "url": "https://bigzbeul.com/fabric/repo/versions/1.21.1-fabric-0.16.5/1.21.1-fabric-0.16.5.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://bigzbeul.com/fabric/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494835,
+                "MD5": "a33725dd52de94c33514b6867c8d0b4b",
+                "url": "https://bigzbeul.com/fabric/repo/lib/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://bigzbeul.com/fabric/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.104.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2311459,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/fabric-api-0.104.0+1.21.1.jar",
+            "MD5": "8b8e2cebcd94c66e103a3b68c60bee63"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.12.2+kotlin.2.0.20@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7136729,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/fabric-language-kotlin-1.12.2+kotlin.2.0.20.jar",
+            "MD5": "8de9dc9a12e2605f0d39513bf55b74f9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.0-beta.4+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2659716,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/optionalon/iris-fabric-1.8.0-beta.4+mc1.21.1.jar",
+            "MD5": "030075230b3656cf86d0aabba17d74c1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.13.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 752804,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/lithium-fabric-mc1.21.1-0.13.1.jar",
+            "MD5": "b8466382a400ee71ee8bf54b747015cb"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 975323,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/modmenu-11.0.2.jar",
+            "MD5": "9ad5f7379354ca2eefdf4dd2ec3a1fa7"
+          }
+        },
+        {
+          "id": "io.github.ennuil:ok_zoomer:9.3.0@jar",
+          "name": "Ok Zoomer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 400078,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/OkZoomer-Fabric-9.3.0.jar",
+            "MD5": "d084ba41d170a94622aa398c4d8938bc"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.0-beta.3+mc1.21.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 375434,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/sodium-extra-fabric-0.6.0-beta.3+mc1.21.1.jar",
+            "MD5": "ffceaa073f60cee86115064aa1e3fee4"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.0-beta.2+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1266516,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/sodium-fabric-0.6.0-beta.2+mc1.21.1.jar",
+            "MD5": "b08f626a6cee1fc3b3f42760c8046e5f"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.21.1-1.4.6@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 195316,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/sound-physics-remastered-fabric-1.21.1-1.4.6.jar",
+            "MD5": "248b5a8b794066ea61dec98ebcf7d6c4"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.22@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6583718,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.5.22.jar",
+            "MD5": "66db4bedfd20c5f607777de0ac52245a"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 80,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/config/sound_physics_remastered/soundphysics.properties",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 33,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 286,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/optionsshaders.txt",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 11005,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/servers.dat",
+            "MD5": "f86b1a42ffc30bd50df61de84023eecf",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.2.2.zip",
+          "name": "ComplementaryReimagined_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441683,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.2.2.zip",
+            "MD5": "a0852d3fddaf2c7f957ad6e1b8624513",
+            "path": "shaderpacks/ComplementaryReimagined_r5.2.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.2.2.zip.txt",
+          "name": "ComplementaryReimagined_r5.2.2.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 65,
+            "url": "https://bigzbeul.com/fabric/servers/bigzbeul-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt",
+            "path": "shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt"
+          }
+        },
+        {
+          "id": "resourcepack.zip",
+          "name": "resourcepack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 52353,
+            "url": "https://bigzbeul.com/resourcepack/resourcepack.zip",
+            "MD5": "1b97bf11b1165b8674ead690fc8d50e7",
+            "path": "resourcepacks/resourcepack.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
